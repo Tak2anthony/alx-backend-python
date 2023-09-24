@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Task 12's module.
+'''Task 12: Type Checking
 '''
 from typing import List, Tuple
 
@@ -9,7 +9,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     '''
     zoomed_in: List = [
         item for item in lst
-        for i in range(int(factor))
+        for i in range(factor)
     ]
     return zoomed_in
 
